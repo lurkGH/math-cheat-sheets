@@ -1,13 +1,22 @@
 \documentclass[12pt, letterpaper]{article}
 \usepackage{amsmath}
-\title{Physics Equations Cheat Sheet}
+
+\title{\textbf{Physics Equations Cheat Sheet}}
 \author{by lurkGH}
 \date{\today}
+
 \begin{document}
 \maketitle
 
-\centerline{\textbf{\underline{Displacement}}}
-\[\Delta r = \vec{r}_f - \vec{r}_i \]
+\noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+\vspace{1em}
+
+% Position, Velocity, and Acceleration
+\Large{\centerline{\textbf{\underline{Position, Velocity, and Acceleration}}}}
+\vspace{1em}
+
+\normalsize{\centerline{\textbf{\underline{Displacement}}}}
+\[\Delta r = \vec{r}_f - \vec{r}_i\]
 
 \centerline{\textbf{\underline{Average Velocity}}}
 \[\vec{v}_{avg} = \frac{\Delta \vec{r}}{\Delta t}\]
@@ -16,12 +25,31 @@
 \[\vec{v}_{avg}\ = \frac{1}{2} (v_{fx} + v_{ix})\]
 
 \centerline{\textbf{\underline{Instantaneous Velocity}}}
-\[\vec{v} = \lim_{\Delta t \to 0} \frac{\Delta \vec{r}}{\Delta t} \]
+\[\vec{v} = \lim_{\Delta t \to 0} \frac{\Delta \vec{r}}{\Delta t}\]
 
 \centerline{\textbf{\underline{Average Acceleration}}}
 \[\vec{a}_{avg} = \frac{\Delta \vec{v}}{\Delta t}\]
 
 \centerline{\textbf{\underline{Instantaneous Acceleration}}}
 \[\vec{a} = \lim_{\Delta t \to 0} \frac{\Delta \vec{v}}{\Delta t}\]
+
+\newpage
+
+% Kinematics
+\Large{\centerline{\textbf{\underline{Kinematic Equations}}}}
+\vspace{1em}
+
+\normalsize{\centerline{\textbf{\underline{Velocity-Time Relation}}}}
+\[\Delta v_x = v_{fx} - v_{ix} = a_x \Delta t\]
+
+\centerline{\textbf{\underline{Velocity-Displacement Relation}}}
+\[v^2_{fx} - v^2_{ix} = 2a \Delta x\]
+
+\centerline{\textbf{\underline{Average Velocity-Displacement Relation}}}
+\[\Delta x = \frac{1}{2} (v_{fx} + v_{ix}) \Delta t\]
+
+\centerline{\textbf{\underline{Displacement-Time Relation}}}
+\[\Delta x = \frac{1}{2} a_x (\Delta t)^2 + v_{ix} \Delta t\]
+
 
 \end{document}
