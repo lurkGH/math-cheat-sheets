@@ -1,8 +1,6 @@
 from pdf2image import convert_from_path
 
-filePath = "physics.pdf"
-
-images = convert_from_path(filePath)
+images = convert_from_path("physics.pdf")
 
 for i, image in enumerate(images):
-    image.save(f"physics_{i + 1}.png", "PNG")
+    image.save(f"images/physics_{i + 1}.png", "PNG")
