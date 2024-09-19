@@ -7,4 +7,5 @@
 <p align="center">
     <img src="images/physics_1.png">
     <img src="images/physics_2.png">
+    <img src="images/physics_3.png">
 </p>
