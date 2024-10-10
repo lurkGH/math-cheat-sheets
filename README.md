@@ -10,4 +10,5 @@
     <img src="images/physics_3.png">
     <img src="images/physics_4.png">
     <img src="images/physics_5.png">
+    <img src="images/physics_6.png">
 </p>
